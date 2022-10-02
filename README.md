@@ -29,7 +29,7 @@ This library was originally created by Faure Systems to work with xcape.io. Beca
 
 ## 1. Installation and usage
 ### Prepare Arduino IDE
-Download [ArduinoProps2.zip](https://github.com/gdm-webofthings/ArduinoProps2/raw/master/ArduinoProps2.zip) from GitHub and use **Sketch > Include Library > Add .ZIP Library...**
+Download [ArduinoProps2.zip](https://github.com/gdm-webofthings/ArduinoProps2/blob/main/ArduinoProps2.zip) from GitHub and use **Sketch > Include Library > Add .ZIP Library...**
 
 ![](help/install-shot.png)
 
