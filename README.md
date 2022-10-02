@@ -11,10 +11,9 @@ This library was originally created by Faure Systems to work with xcape.io. Beca
 3. [*ArduinoProps library* value for escape room 2.0](#3-arduinoprops-library-value-for-escape-room-20)
 4. [Application protocol for escape room 2.0 prop](#4-application-protocol-for-escape-room-20-prop)
 5. [Compatible hardware](#5-compatible-hardware)
-6. [Advantages of Arduino Yún and Dragino Yún shield](#6-advantages-of-arduino-Yún-and-dragino-Yún-shield)
-7. [Advantages of the *ArduinoProps library*](#7-advantages-of-the-arduinoprops-library)
-8. [Limitations due to *PubSubClient*](#8-limitations-due-to-pubsubclient)
-9. [Examples](#9-examples)
+6. [Advantages of the *ArduinoProps library*](#6-advantages-of-the-arduinoprops-library)
+7. [Limitations due to *PubSubClient*](#7-limitations-due-to-pubsubclient)
+8. [Examples](#8-examples)
 
 |ArduinoProps library documentation                           |
 |-------------------------------------------------------------|
@@ -176,11 +175,10 @@ More MQTT topics can be use for anything (room scenario, etc.).
     -> so the escape room controller can monitor response time at application level
 ```
 
-
 ## 5. Compatible hardware
 For WiFi prop, please update the WiFiNINA firmware: [WiFiNINA firmware update](help/WifiNinaFirmware.md).
 
-## 7. Advantages of the *ArduinoProps library*
+## 6. Advantages of the *ArduinoProps library*
 You can build escape room 2.0 Arduino-based prop just with Nick O'Leary PubSubClient library for MQTT.
 
 With *ArduinoProps library*:
@@ -193,8 +191,7 @@ With *ArduinoProps library*:
 
 *ArduinoProps library* itself relies on *Nick O'Leary PubSubClient* library for MQTT.
 
-
-## 8. Limitations due to *PubSubClient*
+## 7. Limitations due to *PubSubClient*
 These limitations are not an issue for escape room prop:
  - It can only publish QoS 0 messages.
  - It can subscribe at QoS 0 or QoS 1.
@@ -203,8 +200,7 @@ These limitations are not an issue for escape room prop:
  - The client uses MQTT 3.1.1 by default. It can be changed to use MQTT 3.1 by
    changing value of `MQTT_VERSION` in `PubSubClient.h`.
 
-
-## 9. Examples
+## 8. Examples
 
 The library comes with a number of example sketches. See **File > Examples > ArduinoProps** within the Arduino IDE application.
 
